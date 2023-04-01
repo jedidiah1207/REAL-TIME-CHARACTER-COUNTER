@@ -1,0 +1,37 @@
+body{
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    align-items: center;
+    background-color: rgb(230, 138, 129);
+    font-family: cursive;;
+    justify-content: center;
+}
+.frame{
+    background-color: pink;
+    padding: 30px;
+    border-radius: 30px;
+    width: 500px;
+    box-shadow: 10px 10px 10px;
+}
+.input{
+    width: 98%;
+    height:90px;
+    border: solid 2px gray;
+}
+.input::placeholder{
+    padding: 0 10px;
+    font-size: large;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5px;
+}
+.count{
+    color: slateblue;
+}
+.rcount{
+    color: orangered;
+}
+
